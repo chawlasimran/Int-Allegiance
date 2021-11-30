@@ -1,0 +1,23 @@
+{
+  "name": "twiner-server",
+  "version": "1.0.0",
+  "description": "Twiner web server",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow-models/posenet": "^2.2.2",
+    "@tensorflow/tfjs": "^3.11.0",
+    "@tensorflow/tfjs-backend-webgl": "^3.11.0",
+    "@tensorflow/tfjs-core": "^3.11.0",
+    "botkit": "^4.10.0",
+    "canvas": "^2.8.0",
+    "express": "^4.17.1",
+    "ffmpeg": "^0.0.4",
+    "rollup": "^2.60.1"
+  }
+}
